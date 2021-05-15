@@ -1,0 +1,89 @@
+
+.academic-header{
+    text-align: center;
+    margin: 100px 25px;
+    h4{
+        font-weight: 600;
+        font-size: 32px;
+        vertical-align:baseline;
+        word-spacing:0px;
+        color:rgba(78, 77, 77, 0.993);
+        font-weight:600;
+        text-decoration:none solid rgb(102, 102, 102);
+        margin-bottom:10px;
+    }
+    p{
+        color:#838383;
+        font-size:16px;
+        line-height:25px;
+        vertical-align:baseline;
+        word-spacing:0px;
+        font-weight:500;
+        text-decoration:none solid rgb(131, 131, 131);
+        // text-align:center;
+        // text-indent:0px;
+    }
+}
+
+.institution-info{
+    img{
+        transform: scale(0.8);
+    }
+    h6{
+        color:rgba(78, 77, 77, 0.993);
+        margin-top: 15px;
+        font-weight: 700;
+        word-spacing:1px;
+        // vertical-align:center;
+    }
+    p{
+        color:#838383;
+        font-weight: 500;
+    }
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.academicsec-card{
+    background:#f2f5f9;
+    width:100%;
+    border-radius: 10px;
+    height:200px;
+    img{
+        transform:scale(0.9)
+    }
+    p{
+        font-weight: 600;
+        color:#8c8d8e;
+    }
+    h6{
+        font-weight: 700;
+        color:#61696c;
+    }
+}
+.details-section{
+    margin:100px 0px;
+    h6{
+        font-weight: 700;
+        color:#414a4d;
+        font-size: 16px;
+        line-height: 25.4px;
+    }
+    p{
+        span{
+            font-weight: 600;    
+        }
+        &:first-of-type{
+            margin-top: 20px;
+        }
+        color:#838383;
+        font-weight: 500;
+        font-size:14px;
+        line-height:23px;
+        word-spacing:1.5px;
+    }
+}

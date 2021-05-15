@@ -1,0 +1,27 @@
+.navbar{
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.nav-item{
+    margin:0px 8px 0px 8px !important;
+    .nav-link{
+        color:#999999 !important;
+    }
+}
+
+.navbar-brand{
+    margin-left:100px;
+    img{
+        height:40px;
+        width:130px;
+        padding: 0;
+        margin:0;
+    }
+}
+
+.gradient-button{
+    background: linear-gradient(to right, #a10679,#a80e77,#b81e71,#cd2f69,#e23f60,#f74f57,#fb5256) !important;
+    border:none !important;
+    border-radius: 25px !important;
+    width:120px !important;
+    // padding:0px !important;
+}
