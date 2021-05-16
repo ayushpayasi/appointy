@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,Row,Col} from "reactstrap"
-import SectionHeading from "./heading.component"
+import SectionHeading from "./sectionheading.component"
 
 // stylesheet
 import "../assets/scss/academicsec.scss"

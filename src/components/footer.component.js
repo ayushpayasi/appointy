@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,Col,Row,Button} from "reactstrap"
-import SectionHeading from "../components/heading.component"
+import SectionHeading from "./sectionheading.component"
 import "../assets/scss/footer.scss"
 
 import footerImg from "../assets/Footer-Element.png"

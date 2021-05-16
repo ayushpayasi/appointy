@@ -2,7 +2,7 @@ import React from 'react'
 // import "../assets/scss/academicsec.scss"
 import {Container,Col,Row} from "reactstrap"
 // import "../assets/scss/academicsec.scss"
-import SectionHeading from "../components/heading.component"
+import SectionHeading from "./sectionheading.component"
 
 
 // assets

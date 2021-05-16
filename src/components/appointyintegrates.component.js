@@ -4,7 +4,7 @@ import React from 'react'
 import "../assets/scss/appointyintegrates.scss"
 
 // components
-import SectionHeading from "./heading.component"
+import SectionHeading from "./sectionheading.component"
 import { Container,Row,Col,Button } from 'reactstrap'
 
 // assets
@@ -100,7 +100,7 @@ export default function AppointyIntrgrates(props) {
                 {OnlineSchedulingSoftwareData.map(item=>fillOnlineSchedulingSoftwareDetails(item))}
             </Row>
             <Row>
-                <Col className="align-center mt-5 mb-5">
+                <Col className="align-center mt-5">
                     <Button outline className="ai-button"> Learn More</Button>
                 </Col>
             </Row>

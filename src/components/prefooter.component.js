@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionHeading from "../components/heading.component"
+import SectionHeading from "./sectionheading.component"
 import {Container,Row,Col} from "reactstrap"
 
 
@@ -118,7 +118,7 @@ const peaceOfMindCardGenerator =(obj)=>{
     )
 }
 
-export default function AppointyUsedWorldWide() {
+export default function PreFooter(props) {
     return (
         <>
         <Container>  
@@ -137,7 +137,7 @@ export default function AppointyUsedWorldWide() {
         <SectionHeading
             heading="Your peace of mind is our top priority!"
         />
-            <Container className="p-5">
+            <Container className="pl-5 pr-5 pb-5">
                 <Row>
                     {peaceOfMindCardData.map(item=>peaceOfMindCardGenerator(item))}
                 </Row>

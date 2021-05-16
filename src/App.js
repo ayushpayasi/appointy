@@ -7,7 +7,7 @@ import PageHeader from "./components/pageheader.component"
 import AcademicSec from "./components/academicsec.component"
 import AcademicDetails from "./components/academicdetails.component"
 import AppointyIntrgrates from "./components/appointyintegrates.component"
-import AppointyUsedWorldWide from "./components/appointyusedworldwide.component"
+import PreFooter from "./components/prefooter.component"
 import Footer from "./components/footer.component"
 
 // assets
@@ -80,7 +80,7 @@ const academicInstitutionsData=[
   webinars, conferences, etc.`},
 ]
 
-const appointyHandlesAdmin = [
+const appointyHandlesAdminData = [
   {
    image:img9,
    heading:"Calendar Scheduler",
@@ -184,7 +184,7 @@ function App() {
       subHeading="Appointy can help businesses and institutions in the education, advising and non-profit domain schedule 1:1 sessions, round-robin meetings, and group classes"/>  
     <AcademicDetails/>
     <AcademicSec 
-      data={appointyHandlesAdmin}
+      data={appointyHandlesAdminData}
       heading="Appointy handles your everyday admin so that you can
       focus on increasing student success"
       subHeading="Cost-effective education booking software that streamlines end-to-end operations, reduces no-shows, and
@@ -193,7 +193,7 @@ function App() {
       heading="Appointy integrates with the apps you already use"
       subHeading="Education scheduling software that integrates with popular payments apps, social media, video conferencing tools, and personal/work calendars"
     />
-    <AppointyUsedWorldWide/>
+    <PreFooter/>
     <Footer/>
     </>
   );
