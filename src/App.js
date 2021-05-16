@@ -11,68 +11,68 @@ import PreFooter from "./components/prefooter.component"
 import Footer from "./components/footer.component"
 
 // assets
-import img1 from "./assets/Schools.svg"
-import img2 from "./assets/Universities-and-Colleges.svg"
-import img3 from "./assets/Professors-Teachers.svg"
-import img4 from "./assets/Libraries.svg"
-import img5 from "./assets/Tutors.svg"
-import img6 from "./assets/Student-Services.svg"
-import img7 from "./assets/Test-Centers.svg"
-import img8 from "./assets/Educational-Events.svg"
+import academicInstitutionsImg1 from "./assets/Schools.svg"
+import academicInstitutionsImg2 from "./assets/Universities-and-Colleges.svg"
+import academicInstitutionsImg3 from "./assets/Professors-Teachers.svg"
+import academicInstitutionsImg4 from "./assets/Libraries.svg"
+import academicInstitutionsImg5 from "./assets/Tutors.svg"
+import academicInstitutionsImg6 from "./assets/Student-Services.svg"
+import academicInstitutionsImg7 from "./assets/Test-Centers.svg"
+import academicInstitutionsImg8 from "./assets/Educational-Events.svg"
 
-import img9 from "./assets/Calendar-Scheduler-2.svg"
-import img10 from "./assets/Class-Reminders.svg"
-import img11 from "./assets/Booking-Settings-1.svg"
-import img12 from "./assets/Resource-Scheduling-1.svg"
-import img13 from "./assets/Team-Management-1.svg"
-import img14 from "./assets/Online-prepayments-1.svg"
-import img15 from "./assets/Reporting-and-Analytics-2.svg"
-import img16 from "./assets/Wellness-Scheduling-App-1.svg"
+import appointyHandlesAdminImg9 from "./assets/Calendar-Scheduler-2.svg"
+import appointyHandlesAdminImg10 from "./assets/Class-Reminders.svg"
+import appointyHandlesAdminImg11 from "./assets/Booking-Settings-1.svg"
+import appointyHandlesAdminImg12 from "./assets/Resource-Scheduling-1.svg"
+import appointyHandlesAdminImg13 from "./assets/Team-Management-1.svg"
+import appointyHandlesAdminImg14 from "./assets/Online-prepayments-1.svg"
+import appointyHandlesAdminImg15 from "./assets/Reporting-and-Analytics-2.svg"
+import appointyHandlesAdminImg16 from "./assets/Wellness-Scheduling-App-1.svg"
 
 
 const academicInstitutionsData=[
-  {image:img1,
+  {image:academicInstitutionsImg1,
   heading:"Schools",
   para:`Schools can make class time
   tables, schedule resources,
   organize staff & parent meetings,
   career counseling etc.`},
-  {image:img2,
+  {image:academicInstitutionsImg2,
   heading:"Universities & Colleges",
   para:`Institutions can schedule
   academic counseling, advising
   sessions, applicant interviews,
   campus tours, courses, and more`},
-  {image:img3,
+  {image:academicInstitutionsImg3,
   heading:"Professors & Teachers",
   para:`Professors can let students book
   1:1 classes, doubt clearing
   sessions, after school activities,
   project mentoring, and more`},
-  {image:img4,
+  {image:academicInstitutionsImg4,
   heading:"Libraries",
   para:`Public, school or university
   Libraries can manage bookings of
   study rooms, computer systems,
   hourly reading slots, etc.`},
-  {image:img5,
+  {image:academicInstitutionsImg5,
   heading:"Tutors",
   para:`Tutors can schedule in-person or
   online classes, market their
   business, manage students and
   more`},
-  {image:img6,
+  {image:academicInstitutionsImg6,
   heading:"Student Services",
   para:`Students can schedule on
   campus tech support, repair
   works, admin enquiries etc. with
   student services`},
-  {image:img7,
+  {image:academicInstitutionsImg7,
   heading:"Test Centers",
   para:`Test centers can schedule seats,
   computers, test taking time-slots
   and more`},
-  {image:img8,
+  {image:academicInstitutionsImg8,
   heading:"Educational Events",
   para:`Institutions can let attendees
   reserve a seat for science fairs,
@@ -82,7 +82,7 @@ const academicInstitutionsData=[
 
 const appointyHandlesAdminData = [
   {
-   image:img9,
+   image:appointyHandlesAdminImg9,
    heading:"Calendar Scheduler",
    para:`See your entire schedule at a
    glance with Appointy's easy-to-
@@ -94,7 +94,7 @@ const appointyHandlesAdminData = [
    double booked`, 
   },
   {
-    image:img10,
+    image:appointyHandlesAdminImg10,
     heading:"Class Reminders",
     para:`Send automated email and text
     reminder notifications to
@@ -105,7 +105,7 @@ const appointyHandlesAdminData = [
     number, location Links, etc.`, 
    },
    {
-     image:img11,
+     image:appointyHandlesAdminImg11,
      heading:"Resource Scheduling",
      para:`Reserve equipments, lab rooms,
      sports fields, conference halls,
@@ -116,7 +116,7 @@ const appointyHandlesAdminData = [
      resources`, 
     },
     {
-      image:img12,
+      image:appointyHandlesAdminImg12,
       heading:"Booking Automation",
       para:`Limit number of meetings and
       classes you can take in a
@@ -127,7 +127,7 @@ const appointyHandlesAdminData = [
       or session, and more`, 
      },
      {
-       image:img13,
+       image:appointyHandlesAdminImg13,
        heading:"Staff Management",
        para:`Boost staff productivity and let
        them view & manage their own
@@ -138,7 +138,7 @@ const appointyHandlesAdminData = [
        staff allocation`, 
       },
      {
-       image:img14,
+       image:appointyHandlesAdminImg14,
        heading:"Online Prepayments",
        para:`Allow students to pay for your
        classes/sessions when they
@@ -149,7 +149,7 @@ const appointyHandlesAdminData = [
        last-minute cancellations`, 
       },
       {
-        image:img15,
+        image:appointyHandlesAdminImg15,
         heading:"Reporting & Analytics",
         para:`Keep a track on the number of
         classes in a week/month, sales, staff
@@ -159,7 +159,7 @@ const appointyHandlesAdminData = [
         help optimize your processes`, 
        },
        {
-         image:img16,
+         image:appointyHandlesAdminImg16,
          heading:"Scheduling Mobile App",
          para:`Stay on top of upcoming
          appointments and schedule changes

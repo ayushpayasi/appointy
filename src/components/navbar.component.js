@@ -1,17 +1,15 @@
-import React ,{useState} from "react"
-import {Collapse,Navbar,NavbarToggler,Button,NavbarBrand,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem,NavbarText} from 'reactstrap';
+import React from "react"
 
-// assets import
+// components
+import {Navbar,Button,NavbarBrand,Nav,NavItem,NavLink} from 'reactstrap';
+
+// assets
 import logo from "../assets/Appointy-Logo1.svg"
 
-// scss import
+// stylesheet
 import "../assets/scss/navbar.scss"
   
 export default function NavBar(props){
-    const [isOpen, setIsOpen] = useState(false);
-  
-    const toggle = () => setIsOpen(!isOpen);
-  
     return (
       <div>
         <Navbar color="light" light expand="md">

@@ -1,4 +1,7 @@
 import React from 'react'
+
+
+// components
 import SectionHeading from "./sectionheading.component"
 import {Container,Row,Col} from "reactstrap"
 
@@ -94,7 +97,7 @@ const commentFiller =(obj)=>{
 const ratingFiller =(obj)=>{
     return(
         <Col className="rating-holder">
-            <img src={obj.image}></img>
+            <img src={obj.image} alt="rating"></img>
         </Col>
     )
 

@@ -1,4 +1,6 @@
 import React from 'react'
+
+// components
 import {Container,Row,Col,Button} from "reactstrap"
 
 // scss
@@ -23,7 +25,7 @@ export default function PageHeader() {
                 <h6>No credit card required! Our free plan is free forever.</h6>
                 </Col>
                 <Col  className="header-imgarea">
-                    <img src={headerimg} alt="header-image"/>
+                    <img src={headerimg} alt="header"/>
                 </Col>
             </Row>
         </Container>

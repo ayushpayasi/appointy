@@ -1,11 +1,11 @@
 import React from 'react'
+
+// components
 import {Container,Row,Col} from "reactstrap"
 import SectionHeading from "./sectionheading.component"
 
 // stylesheet
 import "../assets/scss/academicsec.scss"
-
-
 
 
 

@@ -6,9 +6,9 @@ import SectionHeading from "./sectionheading.component"
 
 
 // assets
-import img1 from "../assets/Connect-with-students.svg"
-import img2 from "../assets/Booking-convenience.svg"
-import img3 from "../assets/Better-student-experience.svg"
+import academicSecImg1 from "../assets/Connect-with-students.svg"
+import academicSecImg2 from "../assets/Booking-convenience.svg"
+import academicSecImg3 from "../assets/Better-student-experience.svg"
 
 import detailsSecImg1 from "../assets/Instagram-profile-with-book-button-and-booking-page-with-various-subjects.svg"
 import detailsSecImg2 from "../assets/Appointment-confirmation-page-and-zoom-meeting-window.svg"
@@ -17,17 +17,17 @@ import detailsSecImg3 from "../assets/Portal-with-student-database.svg"
 
 const academicSecData = [
     {
-        image:img1,
+        image:academicSecImg1,
         heading:"Connect with prospective students easily",
         para:"Admission offices can make their services easily accessible and enroll new students",
     },
     {
-        image:img2,
+        image:academicSecImg2,
         heading:"Give students more booking convenience",
         para:"Avoid any coordination hassles and let students easily schedule appointments & classes with you",
     },
     {
-        image:img3,
+        image:academicSecImg3,
         heading:"Deliver better student experience",
         para:"Store important student details that you can use to plan out your advising sessions & classes",
     }
@@ -138,40 +138,3 @@ export default function AcademicDetails() {
         </>
     )
 }
-
-
-
-{/* <Col>
-<Row>
-    <Col xs="2">
-        <img src={img1} alt="Connect with prospective students easily"/>
-    </Col>
-    <Col xs="10">
-        <h5>Connect with prospective students easily</h5>
-    </Col>
-</Row>
-<p>Admission offices can make their services easily accessible and enroll new students</p>
-</Col>
-<Col>
-
-<Row>
-<Col xs="2">
-    <img src={img2} alt="Connect with prospective students easily"/>
-</Col>
-<Col xs="10">
-    <h5>Give students more booking convenience</h5>
-</Col>
-</Row>
-<p></p>
-</Col>
-<Col>
-<Row>
-<Col xs="2">
-    <img src={img3} alt="Connect with prospective students easily"/>
-</Col>
-<Col xs="10">
-    <h5></h5>
-</Col>
-</Row>
-<p></p>
-</Col> */}

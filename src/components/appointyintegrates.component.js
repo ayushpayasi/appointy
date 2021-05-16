@@ -14,7 +14,6 @@ import endToEndBrandingImage from "../assets/End-to-end-branding.svg"
 import thirdPartyIntegrationsImage from "../assets/Third-party-integration.svg"
 import dedicatedSupportImage from "../assets/Dedicated-support-team.svg"
 
-
 const OnlineSchedulingSoftwareData = [
     {
         image:thirdPartyIntegrationsImage,
@@ -45,8 +44,6 @@ const OnlineSchedulingSoftwareData = [
         features, troubleshoot, etc.`
     },
 ]
-
-
 
 // custom content Fillers
 const oneLineCardGenerator = (text)=>{

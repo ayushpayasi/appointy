@@ -1,8 +1,13 @@
 import React from 'react'
+
+// components
 import {Container,Col,Row,Button} from "reactstrap"
 import SectionHeading from "./sectionheading.component"
+
+// stylesheet
 import "../assets/scss/footer.scss"
 
+// assets
 import footerImg from "../assets/Footer-Element.png"
 
 export default function Footer() {

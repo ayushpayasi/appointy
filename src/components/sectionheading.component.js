@@ -1,4 +1,6 @@
 import React from 'react'
+
+// components
 import {Row,Col} from "reactstrap"
 
 export default function SectionHeading(props) {
